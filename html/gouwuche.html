@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>MMLOO【米米乐】企业采购批发平台，知名B2B电子商务平台网站！</title>
+	<link rel="stylesheet" type="text/css" href="../css/reset.css">
+	<link rel="stylesheet" href="../css/com.css">
+	<link rel="stylesheet" href="../css/gouwuche.css">
+	<script src="../js/jquery-1.11.3.js"></script>
+	<script src="../js/jquery.cookie.js"></script>
+	<script src="../js/gouwuche.js"></script>
+</head>
+<body>
+<!-- 网页顶部 -->
+  <!-- 顶部导航 -->
+	<div id="topWrapper">
+		<div class="top clear">
+			<div class="top_l">
+				<a href="login.html">登录</a>
+				<a href="register.html">注册</a>
+			</div>		
+			<div class="top_r_menu">
+				<div class="user_menu">
+					<dl class="my-cart">
+						<div class="addcart-num">0</div>
+						<dt class="incar_text">
+							<span class="ico"></span>购物车 <em class="sl">0</em> 件
+							<i class="arrow"></i>
+						</dt>
+						<dd class="sc_cart" style="z-index:4; background:#fff;">
+							<div class="subtitle">
+								<h4>最新加入的商品</h4>
+							</div>
+							<div class="incart_box">
+								<img src="../images/loading.gif" alt="">
+							</div>
+							<div class="checkout">
+								<span>共 <i>0</i> 种商品 共：￥<b class="pay"></b></span><br />
+								<a href="#" class="btn_car">结算购物车的商品</a>
+							</div>
+						</dd>
+					</dl>  	<!-- end my-cart -->			
+				</div>  	<!-- end user_munu -->
+				<div class="other_menu clear">
+					<dl>
+						<dt>
+							<a href="#">用户中心</a>
+							<i></i>
+						</dt>
+						<dd>
+							<ul>
+								<li><a href="#">商品收藏</a></li>
+								<li><a href="#">店铺收藏</a></li>
+								<li><a href="">收藏米米乐</a></li>
+							</ul>
+						</dd>
+					</dl>		<!--end 用户中心 -->
+					<dl>
+						<dt>
+							<a href="#">我的订单</a>
+							<i></i>
+						</dt>
+						<dd>
+							<ul>
+								<li><a href="#">代付款订单</a></li>
+								<li><a href="#">待确认收货</a></li>
+								<li><a href="">待评价交易</a></li>
+							</ul>
+						</dd>
+					</dl>		<!--end 我的订单 -->
+					<dl>
+						<dt>
+							<a href="#">客户服务</a>
+							<i></i>
+						</dt>
+						<dd>
+							<ul>
+								<li><a href="#">帮助中心</a></li>
+								<li><a href="#">售后服务</a></li>
+								<li><a href="">客服中心</a></li>
+								<li><a href="#">在线客服</a></li>
+								<li><a href="">QQ客服</a></li>
+							</ul>
+						</dd>
+					</dl>		<!--end 客户服务 -->
+					<dl style="width:100px;">
+						<dt>
+							<b class="incon_nav_top"></b>
+							<a href="#">网站导航</a>
+							<i></i>
+						</dt>
+						<dd>
+							<ul>
+								<li><a href="#">导航频道</a></li>
+							</ul>
+						</dd>
+					</dl>		<!--end 网站导航 -->
+				</div>		<!-- end other_menu -->			
+			</div>	<!-- end top_r_menu -->
+		</div>	<!-- end top -->
+	</div> <!--  end topWrapper -->
+	<div id="header">
+		<div class="logo">
+			<a href="../index.html" title="米米乐" alt="米米乐">米米乐</a>
+		</div>
+		<ul class="clear">
+			<li class="current">
+				<i class="step1"></i>
+				<p>我的购物车</p>
+				<sub></sub>
+				<div class="hr"></div>
+			</li>
+			<li>
+				<i class="step2"></i>
+				<p>填写核对购物信息</p>
+				<sub></sub>
+				<div class="hr"></div>
+			</li>
+			<li>
+				<i class="step3"></i>
+				<p>支付提交</p>
+				<sub></sub>
+				<div class="hr"></div>
+			</li>
+			<li>
+				<i class="step4"></i>
+				<p>订单完成</p>
+				<sub></sub>
+				<div class="hr"></div>
+			</li>
+		</ul>
+	</div>  	<!-- end header -->
+	<div id="wrapper">
+		<div class="cart">
+			<div class="title">
+				<h3>我的购物车</h3>
+				<h5>查看购物车商品清单，增加减少商品数量，并勾选想要的商品进入下一步操作。</h5>
+			</div>
+			<form action="" class="car">
+				<table class="table_car">
+					<thead>
+					<th class="w50" colspan="2"> 
+						<input type="checkbox" id="selectall">
+						全选
+					</th>
+				
+					<th>商品</th>
+					<th class="w120">单价(元)</th>
+					<th class="w120">数量</th>
+					<th class="w120">小计</th>
+					<th class="w80">操作</th>		
+					</thead>
+					<!-- <tbody>
+						<tr>
+							<th colspan="20">
+								<i class="icon-home"></i>
+								<a href="##">官方店铺</a>
+								<span><a href="##"></a></span>
+								<div class="youhui">
+									<em><i></i>免运费</em>满49免运费 
+								</div>
+							</th>
+						</tr>
+						<tr>
+							<td><input type="checkbox"></td>
+							<td class="w60"><a href="##"><img src="../images/127_05143797902811552_240.jpg" alt=""></a></td>
+							<td class="name"><a href="##">润成小米棒120g/袋酥脆米花棒米花糖办公室休闲零食膨化食品小吃</a></td>
+							<td class="w120">￥<em>8.80</em></td>
+							<td class="w120"><a href="##" class="jian">-</a><input type="text" class="w20" value="1"><a href="##" class="add">+</a></td>
+							<td class="w120"><em>￥8.80</em></td>
+							<td class="w80"><a href="##">收藏</a><br><a href="##">删除</a></td>
+						</tr>
+						<tr>
+							<td class="tr" colspan="20">店铺合计：<span>￥ 998.00</span>元</td>
+						</tr>
+					</tbody> -->
+					<tfoot>
+						<tr >	
+							<td colspan="20">商品总价（不含运费）￥<em class="Altogether"></em>元</td>
+						</tr>
+					</tfoot>
+				</table>
+			</form>
+		</div>
+		<div class="c_bottom">
+			<a href="##"><i></i>下一步，填写核对购物信息</a>
+		</div>
+	</div>		<!-- end  wrapper -->
+
+
+
+<!-- 网页底部 -->
+<div id="bottom">
+	<div class="b_top">
+		<div class="b_left">
+			<dl>
+				<dt>购物指南</dt>
+				<dd><i></i> 礼品卡的购买与使用</dd>
+				<dd><i></i>无法收到邮件？</dd>
+				<dd><i></i> 关于捷信分期</dd>
+				<dd><i></i> 邮费制度</dd>
+			</dl>
+			<dl>
+				<dt>支付方式</dt>
+				<dd><i></i> 支付问题</dd>
+				<dd><i></i> 在线支付</dd>
+				<dd><i></i> 货到付款</dd>
+				<dd><i></i> 邮费制度</dd>
+				<dd><i></i> 营销推广</dd>
+			</dl>
+			<dl>
+				<dt>配送与服务</dt>
+				<dd><i></i> 申请售后退款说明</dd>
+				<dd><i></i> 取消订单退款说明</dd>
+				<dd><i></i> 装机与维修服务</dd>
+				<dd><i></i> 退换货流程</dd>
+				<dd><i></i> 第三方配送</dd>
+			</dl>
+			<dl>
+				<dt>配送与服务</dt>
+				<dd><i></i>小米鸽（兼职招商专员）</dd>
+				<dd><i></i>  广告位管理与流程申报</dd>
+				<dd><i></i>  活动组织与流程申报</dd>
+				<dd><i></i> 如何发货</dd>
+				<dd><i></i>我要开店</dd>
+			</dl>
+		</div>		<!-- end b_left -->
+		<div class="kefu">
+			<h3>客服中心</h3>
+			<strong>4006-780-781</strong>
+			<p>E-mail：mmloo@mmloo.com<br />四川省成都市新南路亚华大厦六楼</p>
+			<a href="#"><img src="../images/qq_index.gif" alt="">&nbsp;&nbsp;4006780781</a>
+		</div>
+		<div class="b_right">
+			<h3><a href="#">关于米米乐商城</a></h3>
+			<dl>
+				<dt><img src="../images/scmmloo.png" alt=""></dt>
+				<dd>手机下单更优惠</dd>
+				<dd>快乐网购</dd>
+				<dd>轻松拥有</dd>
+			</dl>
+		</div>
+	</div>  <!--  end b_top -->
+	<div class="link">
+		<a href="#">网上商城</a>
+		<a href="#">免费信息发布</a>
+		<a href="#">客栈网</a>
+		<a href="#">乐天代购</a>
+		<a href="#">蛋糕网上订购</a>
+		<a href="#">吃喝玩乐</a>
+		<a href="#">网上数码商城</a>
+		<a href="#">1688批发网</a>
+		<a href="#">深圳童装批发</a>
+		<a href="#">中国皮革网 </a>
+		<a href="#">户外装备</a>
+		<a href="#">饰品批发</a>
+		<a href="#">惠爱你</a>
+		<a href="#">网上订花</a>
+		<a href="#">美容加盟</a>
+		<a href="#">户外用品 </a>
+		<a href="#">外贸童装批发网</a>
+		<a href="#">礼品册</a>
+		<a href="#">日日顺净水商城</a>
+		<a href="#">促销活动</a>
+		<a href="#">舒华跑步机</a>
+		<a href="#">冰柜</a>
+		<a href="#">制造资源</a>
+		<a href="#">整体衣柜</a>
+		<a href="#">仪器仪表世界网</a>
+		<a href="#">LED</a>
+		<a href="#">51电子网</a>
+		<a href="#">中国供应商</a>
+		<a href="#">十大品牌</a>
+		<a href="#">触摸屏网与液晶网</a>
+		<a href="#">洛阳分类信息</a>
+		<a href="#">千金商务网</a>
+		<a href="#">牛商网</a>
+		<a href="#">大连房产网</a>
+		<a href="#">洁具</a>
+		<a href="#">白酒代理</a>
+		<a href="#">百川网</a>
+		<a href="#">常州租房</a>
+		<a href="#">石家庄房产网</a>
+		<a href="#">1688货源网</a>
+		<a href="#">酒价格</a>
+		<a href="#">童装代理</a>
+		<a href="#">内增高鞋</a>
+		<a href="#">珠宝店加盟</a>
+		<a href="#">砭石</a>
+		<a href="#">拼客网</a>
+		<a href="#">微商代理货源网</a>
+		<a href="#">别墅图片大全</a>
+		<a href="#">隐形眼镜</a>
+		<a href="#">中国环保设备网</a>
+		<a href="#">商祺网</a>
+		<a href="#">迅收网</a>
+		<a href="#">兼职网</a>
+		<a href="#">连锁加盟网</a>
+		<a href="#">楚天运动频道</a>
+	</div>  <!-- end link -->
+</div>		<!-- end bottom -->
+	<div id="footer">
+		<span><a href="#header">返回顶部</a></span>
+		<ul>
+			<li>
+				<a href="#">电脑节</a>&nbsp;|&nbsp;<a href="#">年货节</a>&nbsp;|&nbsp;<a href="#">批发商城</a>&nbsp;|&nbsp;<a href="#">合作及洽谈</a>&nbsp;|&nbsp;<a href="#"> 联系我们 </a>&nbsp;|&nbsp;<a href="#">关于米米乐商城</a>&nbsp;|&nbsp;<a href="#">商家登录</a>&nbsp;|&nbsp;<a href="#">开店协议</a>&nbsp;|&nbsp;<a href="#">商家入驻</a>&nbsp;|&nbsp;<a href="#">手机版</a>&nbsp;|&nbsp;<a href="#">友情链接</a>&nbsp;|&nbsp;<a href="#">招聘英才</a>&nbsp;|&nbsp;<a href="#">米商</a>&nbsp;|&nbsp;<a href="#">8.8包邮</a>
+            </li>
+  			<li>© 2016  www.mmloo.com 版权所有  </li>
+		</ul>
+	</div>	<!-- end footer -->
+	<div id="footerNew">
+		<a href="#"><img src="../images/cxlogo.png"></a>
+	</div>
+</body>
+</html>

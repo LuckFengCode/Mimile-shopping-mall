@@ -1,0 +1,35 @@
+/*header*/
+	#headerWrapper{background-color:#FAFAFA;width:100%;}
+	.header{width:100%;}
+	.header a{display: block;background: url(../images/dl_top.jpg) no-repeat top center;width:100%;height:70px;}
+/*main*/
+	#main{width:1200px;margin:0 auto;}
+	#main .left{padding-left:150px;float:left;}
+	#main .left a{display:block;margin-top:30px;margin-bottom:30px;width:212px;height:75px;}
+	#main .right{width:400px;height:398px;float:left;background:#f9f9f9;margin-top:142px;padding-top:16px;border-left:1px solid #d8d8d8;border-right:1px solid #d8d8d8;}
+	.right h2{margin-left:26px;font-size:18px;margin-bottom:50px;}
+	.right .user{padding-left:54px;width:226px;font-size:16px;margin-bottom:28px;height:40px;background:url(../images/user.jpg) no-repeat left top;border:1px solid #bcbcbc;margin-left:54px;background-color:#fff;}
+	.right .pw{padding-left:54px;width:226px;font-size:16px;margin-bottom:28px;height:40px;background:url(../images/password.jpg) no-repeat left top;border:1px solid #bcbcbc;margin-left:54px;background-color:#fff;}
+	.right .p1{margin-left:110px;margin-bottom: 12px;}
+	.right .p1 .login{display:block;width:88px;height:28px;background:url(../images/login.png) no-repeat 0 0;float:left;margin-right:14px;}
+	.right .p1 span{display:block;float:left;}
+	.right .p1 span a{display:block;width:70px;height:28px;color:#2252b8;font-weight: bold;}
+	.right .p2{margin-left:120px;margin-bottom: 25px;}
+	.right .p2 span{display: block;float:left;color:#696969;}
+	.right .p2 a{display:block;float:left;}
+	.right .p2 a input{width:50px;height:26px;background:url(../images/login.png) no-repeat -98px -56px;border:none;color:#524e4f;font-size:14px;font-weight:bold;cursor:pointer;margin-left:4px;}
+	.right .r_b{border-top:1px dashed #d4d4d4;padding-top:12px;}
+	.right .r_b h3{text-align:center;color:#767676;font-weight:normal;font-size:12px;}
+	.right .r_b a{display:inline-block;height:28px;margin-right:4px;}
+	.right .r_b .qq{background: url(../images/login.png) no-repeat -88px 0;width:78px;margin-left:100px;}
+	.right .r_b .sina{background: url(../images/login.png) no-repeat -166px 0;width:88px;}
+	.right .r_b .zhifubao{background: url(../images/login.png) no-repeat 0 -200px;width:82px;}
+/*footer*/
+	#footer{width:1200px;height:50px;margin:0 auto;text-align:center;padding-top:20px;padding-bottom:10px;margin-top:8px;margin-bottom: 4px;}
+	#footer span{display: block;float:right;}
+	#footer span a{display:block;width:50px;height:20px;padding-right:14px;background:url(../images/icon.gif) no-repeat right -51px;font-size:12px;}
+	#footer ul li{font-size:12px;color:#656565;}
+/*#footerNew*/
+   	#footerNew{width:1200px;margin:0 auto;text-align: center;}
+	#footerNew a{display: block;}
+	#footerNew a img{width:130px;height:47px;}

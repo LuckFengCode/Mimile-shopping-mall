@@ -1,0 +1,33 @@
+.all-category .category{display:none;}
+.all-category .cont{border-right:none;}
+
+/*网页主体*/
+#mainWrapper{background:#fff;}
+#mainWrapper .banner{width:100%;text-align:center;margin:0 auto;}
+.banner img{display:block;height:400px;min-height:400px;width:100%;}
+.floor_pic{width:100%;margin-top:20px;}
+.floor_pic img{display: block;margin:0 auto;}
+#mainWrapper .sale{width:1200px;margin:0 auto;}
+#mainWrapper .sale ul{margin-left:-7px;}
+#mainWrapper .sale ul li{float:left;width:232px;margin:10px 0 0 7px;}
+.sale ul li dl{padding:5px 5px 14px 5px;border:1px solid #ececec;width:216px;height:314px;margin:4px 0 0 2px;position:relative;}
+.sale ul li dl:hover{border:1px solid #FB3648;box-shadow: 2px 2px 5px #b6b6b6;}
+.sale ul li dl dt{width:210px;height:210px;margin-bottom:10px;margin-top:10px;}
+.sale ul li dl dt img{max-width: 210px;max-height:210px;}
+.sale ul li dl dd{line-height:18px;height:34px;padding-bottom: 5px;margin:33px 8px 0 8px;width:210px;height:34px;text-align:center;color:#000;}
+.sale ul li dl span{display: block;width:210px;height:25px;line-height: 25px;text-align:center;}
+.sale ul li dl span a{font-size:14px;color:#e4393c;font-family: "微软雅黑";}
+.sale ul li dl span a em{color:#FB3648;}
+.sale ul li dl span b{display: inline-block;background:url(../images/car.png) no-repeat;width:23px;height:14px;float:right;margin-top:5px;cursor: pointer;}
+.sale ul li dl p{width:104px;height:30px;line-height: 30px;padding:1px 25px;background:#fff;box-shadow: 0 0 5px #ddd;position:absolute;top:95px;left:17px;margin-left:9%;display: none;}
+.sale ul li dl p i{display:inline-block;width:20px;height:26px;float:left;background:url(../images/icon.png) no-repeat 0 8px;}
+#mainWrapper .ad_pic{width:100%;text-align:center;margin-top:30px;margin-bottom:35px;}
+.ad_pic a{display: block;}
+#mainWrapper .hezuo{width:1200px;height:32px;margin:0 auto;margin-bottom:17px;}
+#mainWrapper .hezuo a{display:inline-block;width:32px;height:32px;float:left;margin-right:4px;}
+.hezuo a:nth-child(1){background:url(../images/jiathis_ico_32x32.png) no-repeat 0 -32px;}
+.hezuo a:nth-child(2){background:url(../images/jiathis_ico_32x32.png) no-repeat 0 0;}
+.hezuo a:nth-child(3){background:url(../images/jiathis_ico_32x32.png) no-repeat 0 -1760px;}
+.hezuo a:nth-child(4){background:url(../images/jiathis_ico_32x32.png) no-repeat 0 -4032px;}
+.hezuo a:nth-child(5){background:url(../images/jiathis_ico_32x32.png) no-repeat 0 -3680px;}
+.hezuo a:nth-child(6){background:url(../images/jiathis_ico_32x32.png) no-repeat 0 -64px;}
